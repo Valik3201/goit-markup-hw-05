@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Modern Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <title>Web Studio</title>
+  </head>
+  <body>
+    <!-- Page header -->
+    <header class="top-line">
+      <div class="header-container container">
+        <!-- Navbar -->
+        <nav class="container nav-menu-section">
+          <a href="#" class="logo logo-header"
+            ><span class="text-color-iris">WEB</span>STUDIO</a
+          >
+          <ul class="nav-items">
+            <li><a href="index.html" class="not-main-link">Studio</a></li>
+            <li><a href="#" class="main-link">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Contacts section -->
+        <address>
+          <ul class="contacts-items">
+            <li>
+              <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+        </address>
+        <!-- End Contacts section -->
+      </div>
+    </header>
+    <!-- End page header -->
+
+    <!-- Main section -->
+    <main>
+      <section class="portfolio-container">
+        <!-- Filters section -->
+        <div class="container flex-column">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="filter-buttons">
+            <li>
+              <button type="button" class="filter-btn">All</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Web Site</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">App</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Design</button>
+            </li>
+            <li>
+              <button type="button" class="filter-btn">Marketing</button>
+            </li>
+          </ul>
+          <!-- End filter section -->
+
+          <!-- Portfolio section -->
+          <ul class="portfolio-section">
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/banking-app-interface-concept.jpg"
+                  alt="Various Screens of a Banking App"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="project-card-type">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/cashless-payment.jpg"
+                  alt="Phone Scanning QR Code"
+                  width="360"
+                  height="300"
+                />
+
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Cashless Payment</h2>
+                  <p class="project-card-type">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/meditation-app.jpg"
+                  alt="App Mockup on Mac and iPhone with 'Return to Normalcy' Text"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Meditation App</h2>
+                  <p class="project-card-type">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/taxi-service.jpg"
+                  alt="Car's front door showing steering wheel and driver using navigation on phone"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Taxi Service</h2>
+                  <p class="project-card-type">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/screen-illustrations.jpg"
+                  alt="Visual Graphics for Screens"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Screen Illustrations</h2>
+                  <p class="project-card-type">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/online-courses.jpg"
+                  alt="Smiling girl with headphones engaged in Online Course or Content"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Online Courses</h2>
+                  <p class="project-card-type">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/instagram-stories-concept.jpg"
+                  alt="Instagram Stories Design"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="project-card-type">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/organic-food.jpg"
+                  alt="Woman  with a bag of Fresh Organic Food"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Organic Food</h2>
+                  <p class="project-card-type">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card-item">
+              <a href="#" class="project-card-link">
+                <img
+                  src="images/fresh-coffee.jpg"
+                  alt="Barista preparing Fresh Coffee"
+                  width="360"
+                  height="300"
+                />
+                <div class="project-card-caption">
+                  <h2 class="project-card-heading">Fresh Coffee</h2>
+                  <p class="project-card-type">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End portfolio section -->
+    </main>
+    <!-- End main section -->
+
+    <!-- Page footer -->
+    <footer class="dark-bg-footer">
+      <div class="container">
+        <div class="flex-column">
+          <a href="#" class="logo logo-footer text-color-cloud"
+            ><span class="text-color-iris">WEB</span>STUDIO</a
+          >
+          <p class="footer-paragraph">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social-media">
+          <p>Social media</p>
+          <ul class="social-media-icons footer-social-media-icons">
+            <li>
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg>
+                  <use
+                    width="24"
+                    height="24"
+                    href="images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                <svg>
+                  <use
+                    width="24"
+                    height="24"
+                    href="images/icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg>
+                  <use
+                    width="24"
+                    height="24"
+                    href="images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg>
+                  <use
+                    width="24"
+                    height="24"
+                    href="images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End page footer -->
+  </body>
+</html>
