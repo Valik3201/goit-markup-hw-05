@@ -66,7 +66,9 @@
           <h1 class="heading-main">
             Effective Solutions <br />for Your Business
           </h1>
-          <button type="button" class="primary-btn">Order Service</button>
+          <button type="button" class="primary-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -503,66 +505,42 @@
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-1"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-2"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-3"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-4"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-5"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="#">
                 <svg>
-                  <use
-                    width="104"
-                    height="56"
-                    href="images/icons.svg#icon-client-6"
-                  ></use>
+                  <use href="images/icons.svg#icon-client-6"></use>
                 </svg>
               </a>
             </li>
@@ -650,7 +628,19 @@
     </footer>
     <!-- End page footer -->
 
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg width="8" height="8">
+            <use href="images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- End modal window -->
+
     <!-- Script -->
-    <script src="./js/modal.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
